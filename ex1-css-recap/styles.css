@@ -1,0 +1,114 @@
+body
+{
+    background-color: black;
+}
+
+#block-page
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    margin: auto;
+    width: 80%;
+}
+
+.banner
+{
+    flex: 1;
+}
+
+#block-page h1
+{
+    font-size: 2.5em;
+    text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.489);
+}
+
+.some
+{
+    color: rgb(255, 153, 51);
+    margin-right: 10px;
+}
+
+.content
+{
+    background-color: rgb(239, 239, 239);
+    flex: 8;
+    font-size: 1.6em;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.content p
+{
+    margin-bottom: 40px;
+}
+
+.bnt
+{
+    background-color: rgb(255, 153, 51);
+    border: 1px solid rgb(255, 153, 51);
+    border-radius: 10px;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.content .bnt a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.block-grid
+{
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.grid
+{
+    align-items: center;
+    background-color: rgb(239, 239, 239);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+.grid-1
+{
+    background-color: rgb(169, 84, 84);
+    border-radius: 10px;
+    height: 20vh;
+    width: 25vh;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    width: 20vh;
+}
+
+.block-grid a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.prod-grid
+{
+    background-color: rgb(255, 153, 51);
+    border: 1px solid rgb(255, 153, 51);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: center;   
+}
+
+.grid-align
+{
+    text-align: center;
+}
