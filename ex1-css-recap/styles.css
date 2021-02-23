@@ -117,7 +117,13 @@ a
     text-align: center;
 }
 
+.description
+{
+    margin-left: 170px;
+}
 .float
 {
     float: left;
+    height: 90vh;
 }
+
