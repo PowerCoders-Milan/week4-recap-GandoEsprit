@@ -127,3 +127,8 @@ a
     height: 90vh;
 }
 
+.footer
+{
+    display: flex;
+}
+
